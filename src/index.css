@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #FAF7F2;
+    color: #2C2825;
+    font-family: 'Libre Franklin', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+}
+
+@layer utilities {
+  .shape-blob {
+    border-radius: 62% 38% 46% 54% / 60% 54% 46% 40%;
+  }
+  .shape-arch {
+    border-radius: 200px 200px 20px 20px;
+  }
+  .shape-organic {
+    border-radius: 80px 16px 80px 16px;
+  }
+}
