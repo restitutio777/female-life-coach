@@ -43,13 +43,13 @@ export default function Navigation() {
             onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
           >
             <span
-              className="font-display italic text-xl lg:text-2xl leading-none"
+              className="font-display italic text-2xl lg:text-[1.75rem] leading-none"
               style={{ color: 'var(--c-text)', fontWeight: 400 }}
             >
               Anna
             </span>
             <span
-              className="font-sans text-[11px] lg:text-xs leading-none tracking-[0.1em] uppercase"
+              className="font-sans text-xs lg:text-[13px] leading-none tracking-[0.1em] uppercase"
               style={{ color: 'var(--c-text-soft)', fontWeight: 300 }}
             >
               Lichtenberg
